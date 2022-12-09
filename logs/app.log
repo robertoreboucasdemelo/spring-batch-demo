@@ -1,0 +1,14 @@
+2022-12-09 01:12:01,473 INFO c.m.s.SpringBatchDemoApplication [main] Starting SpringBatchDemoApplication using Java 17.0.4.1 on IBM-PF32WK2Y with PID 16440 (C:\Users\015099631\Documents\SpringBatch\wksp\spring-batch-demo\target\classes started by 015099631 in C:\Users\015099631\Documents\SpringBatch\wksp\spring-batch-demo)
+2022-12-09 01:12:01,477 INFO c.m.s.SpringBatchDemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-09 01:12:01,970 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-12-09 01:12:02,267 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-09 01:12:02,646 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-09 01:12:02,754 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: POSTGRES
+2022-12-09 01:12:02,939 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-12-09 01:12:03,078 INFO c.m.s.SpringBatchDemoApplication [main] Started SpringBatchDemoApplication in 2.079 seconds (JVM running for 2.95)
+2022-12-09 01:12:03,180 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=printHelloJob]] launched with the following parameters: [{name=New_Batch}]
+2022-12-09 01:12:03,240 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [printHelloStep]
+2022-12-09 01:12:03,270 INFO o.s.b.c.s.AbstractStep [main] Step: [printHelloStep] executed in 30ms
+2022-12-09 01:12:03,283 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=printHelloJob]] completed with the following parameters: [{name=New_Batch}] and the following status: [COMPLETED] in 61ms
+2022-12-09 01:12:03,290 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-12-09 01:12:03,351 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
